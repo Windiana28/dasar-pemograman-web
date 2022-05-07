@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Poppins:wght@200;400&family=Roboto:ital,wght@0,100;1,100&display=swap');
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+ }
+
+ h1{
+     font-family: Gloria Hallelujah;
+     text-align: center;
+     font-size: 60px;
+     color: #37784F;
+     
+ }
+
+#open {
+    float: right;
+}
+
+ nav li {
+     display: inline;
+     list-style-type: none;
+     margin-right: 20px;
+     text-align: c;
+     
+ }
+
+ nav {
+     background-color:#419c62;
+     padding: 5px;
+ }
+  
+ nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+ }
+
+ h2 {
+     font-size: 40px;
+     color: #419c62;
+ }
+
+ 
+ main {
+     padding: 50px;
+     overflow: auto;
+     
+ }
+
+ footer {
+    padding: 20px;
+    color: white;
+    background-color: #419c62;
+    text-align: center;
+    
+ }
+
+ .identitas {
+     font-size: 25px;
+ }
+aside{
+    float: right;
+    text-align: center;
+}
+
+#content {
+    float: left;
+    width: 75%;
+ }
+
+ .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+ }
+
+ .informasi{
+     color: red;
+     font-style: italic;
+ }
+
+ 
+ @media screen and (max-width: 1000px) {
+    #content,
+   aside {
+       width: 100%;
+       padding: 0;
+   }
+}
+
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+  }
+  
+  .dropdown {
+   
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    right: 0;
+    
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
